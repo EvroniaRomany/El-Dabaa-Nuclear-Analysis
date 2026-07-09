@@ -1,5 +1,10 @@
 # 🇪🇬 El Dabaa Nuclear Power Plant — Data Analysis Project
 
+
+<p align="center">
+  <img src="./pipeline.png" alt="Data Pipeline Architecture" width="85%"/>
+</p>
+
 > **Why did Egypt choose Russian VVER-1200 technology for its first nuclear power plant?**
 > A full data-analysis project (SQL + Python + Power BI + PowerPoint) exploring cost, profitability, safety, and strategic impact using real-world operational data from **24 nuclear plants worldwide (2015–2024)**.
 
@@ -45,12 +50,6 @@ El-Dabaa-Nuclear-Analysis/
 │
 ├── powerbi/
 │   └── El_Dabaa_Dashboard.pbix    # Interactive Power BI dashboard
-│
-├── presentation/
-│   └── El_Dabaa_Nuclear_Presentation.pptx   # Final business presentation (33 slides)
-│
-└── images/                        # Screenshots (dashboard, key charts) for the README
-```
 
 ---
 
