@@ -47,7 +47,6 @@ El-Dabaa-Nuclear-Analysis/
 ├── powerbi/
 │   └── El_Dabaa_Dashboard.pbix    # Interactive Power BI dashboard
 
----
 
 ## 🛠️ Tools & Tech Stack
 
@@ -59,18 +58,15 @@ El-Dabaa-Nuclear-Analysis/
 | **Power BI** | Interactive dashboard & visualization |
 | **PowerPoint** | Final stakeholder-facing presentation |
 
----
-
 ## 🧩 Data Model
 
 The SQL analysis uses a **star schema**:
 
 - **`fact`** — the fact table (capacity factor, ROI, revenue, costs, profit, etc.)
-- **`Dim_Reactor`** — reactor type & model
-- **`Dim_Plant`** — plant name & country
-- **`Dim_Date`** — year, month, quarter
-
----
+- **`Dim_Reactor`** — reactor type & model..
+- **`Dim_Plant`** — plant name & country..
+- **`Dim_Date`** — year, month, quarter..
+- **`Dim_market`** — fuel_price_index, grid_load, inflation_rate,...
 
 ## ❓ Key Business Questions Answered
 
@@ -89,9 +85,6 @@ The SQL analysis uses a **star schema**:
 13. Which reactor types have an average ROI greater than 20%?
 
 Full query set: [`sql/nuclear_analysis_queries.sql`](sql/nuclear_analysis_queries.sql)
-
----
-
 ## 📊 Key Findings (Summary)
 
 - The **VVER-1200** reactor shows the **lowest capital cost per MW** among Generation III+ reactors worldwide.
@@ -100,9 +93,6 @@ Full query set: [`sql/nuclear_analysis_queries.sql`](sql/nuclear_analysis_querie
 - The project is projected to reduce Egypt's carbon emissions by **14 million tonnes/year**.
 
 *(Full detail available in the presentation and Power BI dashboard.)*
-
----
-
 ## 🚀 How to Explore This Project
 
 1. **SQL**: Open `sql/nuclear_analysis_queries.sql` in SQL Server Management Studio (SSMS) against a database with the `fact`, `Dim_Reactor`, `Dim_Plant`, and `Dim_Date` tables.
@@ -111,13 +101,7 @@ Full query set: [`sql/nuclear_analysis_queries.sql`](sql/nuclear_analysis_querie
 4. **Presentation**: Open `presentation/El_Dabaa_Nuclear_Presentation.pptx` for the full narrative and findings.
 
 See [`docs/DOCUMENTATION.md`](docs/DOCUMENTATION.md) for full technical details.
-
----
-
 ## 👤 Author
 
 Project developed as part of the **NTI Data Analysis** training program (Final Project).
 
-## 📄 License
-
-This project is released under the [MIT License](LICENSE) — feel free to use and learn from it.
