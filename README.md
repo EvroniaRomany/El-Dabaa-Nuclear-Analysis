@@ -104,4 +104,9 @@ See [`docs/DOCUMENTATION.md`](docs/DOCUMENTATION.md) for full technical details.
 ## 👤 Author
 
 Project developed as part of the **NTI Data Analysis** training program (Final Project).
+#Team
+Evronia Romany Wahib
+Eman Alaa
+Shahd Abd Elnasser
+Shimaa Elsayed
 
