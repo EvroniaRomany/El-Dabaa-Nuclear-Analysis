@@ -103,7 +103,7 @@ Full query set: [`sql/nuclear_analysis_queries.sql`](sql/nuclear_analysis_querie
 See [`docs/DOCUMENTATION.md`](docs/DOCUMENTATION.md) for full technical details.
 ## 👤 Author
 
-Project developed as part of the ***NTI Data Analysis*** training program (Final Project).
+Project developed as part of the **NTI Data Analysis** training program (Final Project).
 #Team
 Evronia Romany Wahib
 Eman Alaa
